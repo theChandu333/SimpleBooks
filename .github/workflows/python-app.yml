@@ -27,4 +27,4 @@ jobs:
 
     - name: Run SimpleBooks API
       run: |
-        simple_books.py
+        python simple_books.py
