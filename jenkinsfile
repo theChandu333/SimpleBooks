@@ -11,7 +11,7 @@ stage('Test')
 {
 steps{
 echo "Testing....."
-sh 'python3 simple_books.py'
+bat 'C:\Users\user\Desktop\moolya Training\Api\Simplebooks\simple_books.py'
 echo "Tested....."
 }
 }
