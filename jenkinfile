@@ -11,7 +11,7 @@ stage('Test')
 {
 steps{
 echo "Testing....."
-bat simple_books.py
+sh 'python3 simple_books.py'
 echo "Tested....."
 }
 }
