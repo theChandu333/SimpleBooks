@@ -11,6 +11,7 @@ stage('Test')
 {
 steps{
 echo "Testing....."
+sh python simple_books.py
 echo "Tested....."
 }
 }
